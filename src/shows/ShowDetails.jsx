@@ -21,6 +21,7 @@ export default function ShowDetails({ show }) {
 
       <EpisodeList
         episodes={show.episodes}
+        selectedEpisode={selectedEpisode}
         setSelectedEpisode={setSelectedEpisode}
       />
 
