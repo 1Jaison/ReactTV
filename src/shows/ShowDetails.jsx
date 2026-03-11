@@ -1,7 +1,8 @@
-import { useState } from "react";
-import "./shows.css";
 import EpisodeList from "./EpisodeList";
 import EpisodeDetails from "./EpisodeDetails";
+import { useState } from "react";
+import "./shows.css";
+
 
 /** Allows users to browse through the episodes of the given show */
 export default function ShowDetails({ show }) {
