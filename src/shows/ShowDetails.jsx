@@ -1,6 +1,6 @@
 import { useState } from "react";
-import EpisodeList from "./EpisodeList";
-import EpisodeDetails from "./EpisodeDetails";
+import EpisodeList from "../episodes/EpisodeList";
+import EpisodeDetails from "../episodes/EpisodeDetails";
 import "./shows.css";
 
 /** Allows users to browse through the episodes of the given show */
