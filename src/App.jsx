@@ -1,7 +1,7 @@
 import { useState } from "react";
 import data from "./shows/data"; // data.js is in the shows folder
-import ShowSelection from "./ShowSelection";
-import ShowDetails from "./ShowDetails";
+import ShowSelection from "./shows/ShowSelection";
+import ShowDetails from "./shows/ShowDetails";
 
 /**
  * React TV is a web streaming platform that allows users to browse
